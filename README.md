@@ -3,7 +3,7 @@ COLORS (improving COntact prediction using LOw-Rank and Sparse matrix decomposit
 
 
 ## Citation
-Haicang Zhang, Yujuan Gao, Minghua Deng, Chao Wang, Jianwei Zhu, Shuai Cheng Li, Wei-Mou Zheng, Dongbo Bu. Improving residue–residue contact prediction via low-rank and sparse decomposition of residue correlation matrix. Biochemical and biophysical research communications 472.1 (2016): 217-222.
+Haicang Zhang, Yujuan Gao, Minghua Deng, Chao Wang, Jianwei Zhu, Shuai Cheng Li, Wei-Mou Zheng, Dongbo Bu. Improving residue–residue contact prediction via low-rank and sparse decomposition of residue correlation matrix. Biochemical and biophysical research communications 472.1 (2016): 217-222. https://www.ncbi.nlm.nih.gov/pubmed/26920058
 
 ## Build
 1. Install the Eigen library. Plese refere to https://eigen.tuxfamily.org/dox/TopicCMakeGuide.html for details.
