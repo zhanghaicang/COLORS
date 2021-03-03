@@ -65,7 +65,7 @@ double calc_cov(const Matrix& pab, const Vector& pa, const Vector& pb) {
 
 int calc_apc(const Matrix& m, Matrix& apc) {
   auto& row_mean = (m.rowwise().sum() - m.diagonal()) / (m.cols() - 1);
-  apc = (m - row_mean * row_mean.transpose()) / row_mean.mean();
+  apc = m - row_mean * row_mean.transpose() / row_mean.mean();
 
   return 0;
 }
